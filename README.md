@@ -1,4 +1,4 @@
-# 4.Execution_of_NetworkCommands
+![image](https://github.com/CodesWithRobi/CN-4.Execution_of_NetworkCommends/assets/130537166/ee4a716c-f55e-438a-813e-a4775c18d50c)# 4.Execution_of_NetworkCommands
 ## AIM :Use of Network commands in Real Time environment
 ## Software : Command Prompt And Network Protocol Analyzer
 ## Procedure: To do this EXPERIMENT- follows these steps:
@@ -25,8 +25,15 @@ This commands includes
 <BR>
 • Other IP Commands e.g. show ip route etc.
 <BR>
-
+## Program
+```
+from scapy.all import *
+target = "www.google.com"
+result, _ = traceroute(target, maxttl=32)
+print(result)
+```
 ## Output
+![image](https://github.com/CodesWithRobi/CN-4.Execution_of_NetworkCommends/assets/130537166/f872cc2b-2ada-4d20-af58-9812798c8ad2)
 
 ## Result
 Thus Execution of Network commands Performed 
